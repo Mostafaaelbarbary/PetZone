@@ -1,6 +1,6 @@
-
 <!DOCTYPE html>
 <html>
+
 <head>
     <style>
         .inner_main_menu { margin: 0 auto; width: 1170px; }
@@ -68,7 +68,27 @@
         }
     
   
-</style>
+  image {
+    text-align: center;
+    margin-top: 1200px; /* Adjust the margin to control the distance from the navbar */
+  margin-right:50%;
+  
+}
+
+.image img {
+    max-width: 100%;
+    height: 650px;
+    width: 2000px;
+    display: block;
+    margin-right:50%;
+    margin-top: 35px; /* Adjust the margin to control the distance from the navbar */
+
+    
+}
+
+    </style>
+</head>
+
 <body>
     <div id="main_menu">
         <div class="logo_area">
@@ -84,5 +104,12 @@
             </ul>
         </div>
     </div>
-</head>
+    <div class="image">
+        <img src="images1.jpg" alt="">
+</div>
+<div class="welcome">
+   <h2> Welcome To Petzone Veterinary Clinic</h2>
+</div>
+</body>
+
 </html>
