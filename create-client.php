@@ -34,7 +34,7 @@
            <div class="field input">
               <label for=""> Patient's ID</label>
               <input type = "Patient's ID" name = "Patient's ID" id = "Patient's ID" required>
-              <input type="text"  placeholder="Numner of pets" name="number" list="List">
+              <input type="text"  placeholder="Number of pets" name="number" list="List">
             <datalist id="List">
                <option value="1">  
                <option value="2">
