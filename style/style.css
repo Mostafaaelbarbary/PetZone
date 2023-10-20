@@ -68,6 +68,24 @@ form-box form .field{
 .submit{
   width: 100%;
 }
+.submit-btn{
+  height:40px;
+  width: 70px;
+  background: #EE4E34;
+  border: 0;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 15px;
+  cursor: pointer;
+  transition: all .3s;
+  margin-top: 15px;
+  padding: 0px 10px;
+}
+
+.submit-btn:hover{
+  opacity: 0.82;
+}
 .links{
   margin-bottom: 15px;
 }
+

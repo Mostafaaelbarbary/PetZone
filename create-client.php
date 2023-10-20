@@ -19,6 +19,18 @@
           </div>
 
          
+          <div class="field input">
+            <label for="email">Email</label>
+            <input type ="text" name = "Email" id="Email" required>
+          </div>
+
+
+          <div class="field input">
+            <label for="Phone-number">Phone Number</label>
+            <input type ="text" name = "Phone-number" id="Phone-number" required>
+          </div>
+
+
            <div class="field input">
               <label for=""> Patient's ID</label>
               <input type = "Patient's ID" name = "Patient's ID" id = "Patient's ID" required>
@@ -28,7 +40,7 @@
             <label for="date of first visit">date of first visit</label>
             <input type ="date of first visit" name = "date of first visit" id="date of first visit" required>
           </div>
-
+       
          <div class="field input">
           <input type ="submit" class="btn" name = "submit" value= "Submit" required>
        </div>
