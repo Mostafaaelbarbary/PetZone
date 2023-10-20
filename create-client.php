@@ -34,11 +34,27 @@
            <div class="field input">
               <label for=""> Patient's ID</label>
               <input type = "Patient's ID" name = "Patient's ID" id = "Patient's ID" required>
+              <input type="text"  placeholder="Numner of pets" name="number" list="List">
+            <datalist id="List">
+               <option value="1">  
+               <option value="2">
+               <option value="3">  
+               <option value="4">
+               <option value="5">  
+               <option value="6">
+               <option value="7">  
+               <option value="8">
+               <option value="9">  
+               <option value="10">
+               <option value="11">  
+               <option value="12">
+            </datalist>
+
            </div>    
 
            <div class="field input">
             <label for="date of first visit">date of first visit</label>
-            <input type ="date of first visit" name = "date of first visit" id="date of first visit" required>
+            <input type ="date of the first visit" name = "date of first visit" id="date of first visit" required>
           </div>
        
          <div class="field input">
