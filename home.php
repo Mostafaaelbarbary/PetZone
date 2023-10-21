@@ -340,7 +340,7 @@
     <body>
         <div id="main_menu">
             <div class="logo_area">
-                <a href=""><img src="Logo.jpg" alt=""></a>
+                <a href=""><img src="banners/Logo.jpg" alt=""></a>
             </div>
             <div class="inner_main_menu">
                 <ul>
@@ -353,7 +353,7 @@
             </div>
         </div>
         <div class="image">
-            <img src="image13.jpg" alt="">
+            <img src="banners/image13.jpg" alt="">
     </div>
     <div class="welcome">
     <h3>Your pet is suffering?pet zone offer you the best treatment to your animal <h3>
@@ -374,19 +374,19 @@
         <div class="service">
         <div class="image-container">
         <div class="img2">
-            <img src="medication.jpg" alt="">
+            <img src="banners/medication.jpg" alt="">
             <h4>medication</h4>
         </div>
         <div class="img2">
-            <img src="castraction_1.jpg" alt="">
+            <img src="banners/castraction_1.jpg" alt="">
             <h4>castraction</h4>
         </div>
         <div class="img2">
-            <img src="vaccination.jpg" alt="">
+            <img src="banners/vaccination.jpg" alt="">
             <h4>vaccination</h4>
         </div>
         <div class="img2">
-            <img src="checkout.jpg" alt="">
+            <img src="banners/checkout.jpg" alt="">
             <h4>checkout</h4>
         </div>
     </div>
