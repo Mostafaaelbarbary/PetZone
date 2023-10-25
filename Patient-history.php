@@ -11,7 +11,7 @@
         <div class ="container">
        
         <div class = "box form-box">
-          <header>Create a patient</header>
+          <header>Patient Records</header>
           <form action="" method="post">
 
             

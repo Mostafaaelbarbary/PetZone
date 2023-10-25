@@ -14,14 +14,17 @@
 <body>
 
 
-       
-        <div class = "styles-patients = display: flex;">
-        <p>Patients</p> 
+       <div class="bar">
+        
+       <div class ="styles-patients;">
+        <p>Patients</p>
+       </div>
+        
         <form method="POST" action="create-patient.php">  
-        <input class="add-patient = display: flex;" type="submit" name = "+ Add Patient" value="+ Add Patient" required> 
+        <input class="add-patient " type="submit" name = "+ Add Patient" value="+ Add Patient" required> 
         </form>
-        </div>
-      
+        
+      </div>
         
 
 </body>
