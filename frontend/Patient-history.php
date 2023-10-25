@@ -8,7 +8,6 @@
   <title> Patient History</title>
 </head>
 <body>
-      <?php include "../backend/patient-history.php" ?>
         <div class ="container">
        
         <div class = "box form-box">
@@ -18,27 +17,22 @@
             
 
            <div class="field input">
-              <label for="name">Age </label>
-              <input type ="name" name = "name" id="name" required>
-           </div>
-
-           <div class="field input">
-              <label for="age">Age </label>
+              <label for="">Age </label>
               <input type ="age" name = "age" id="age" required>
            </div>
 
            <div class="field input">
-              <label for="Birth_date">Birth_date </label>
+              <label for="">Birth_date </label>
               <input type ="Birth_date" name = "Birth_date" id="Birth_date" required>
            </div>
 
            <div class="field input">
-              <label for="species"> Species</label>
+              <label for=""> Species</label>
               <input type = "species" name = "species" id = "species" required>
            </div>    
 
            <div class="field input">
-              <label for="Clientname"> Client's name</label>
+              <label for=""> Client's name</label>
               <input type = "Clientname" name = "Clientname" id = "Clientname" required>
            </div> 
 
