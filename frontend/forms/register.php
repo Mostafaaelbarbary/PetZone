@@ -9,7 +9,7 @@
   
 <body>
 
-<?php include_once "../backend/signup.php";?>
+<?php include_once "../../backend/signup.php";?>
 <div class ="container">
         <div class = "box form-box">
           <header>Register</header>
@@ -25,6 +25,11 @@
             <input type ="text" name = "lastname" id="Last name" required>
           </div>
 
+          <div class="field input">
+            <label for=" Username">Username</label>
+            <input type ="text" name = "Username" id="Username" required>
+          </div>
+          
           <div class="field input">
             <label for="Email">Email</label>
             <input type ="text" name = "Email" id="Email" required>

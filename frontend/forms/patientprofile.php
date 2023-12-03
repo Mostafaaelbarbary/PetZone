@@ -8,7 +8,7 @@
   <title>Create Patient</title>
 </head>
 <body>
-        <?php include "../backend/patientserver.php" ?> 
+        <?php include "../../backend/patientserver.php" ?> 
         <div class ="container">
        
         <div class = "box form-box">

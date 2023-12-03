@@ -10,8 +10,8 @@
   
 <body>
 
-<?php include_once "../backend/edit.php";
-include_once "../backend/delete.php";
+<?php include_once "../../backend/edit.php";
+include_once "../../backend/delete.php";
 ?>
 
 <div class ="container">
@@ -29,6 +29,11 @@ include_once "../backend/delete.php";
           <div class="field input">
             <label for="Last name">Last name</label>
             <input type ="text" name = "lastname" value="<?php echo $_SESSION['lastname']?>" id="Last name" required>
+          </div>
+          
+          <div class="field input">
+            <label for=" Username">Username</label>
+            <input type ="text" name = "Username" id="Username" value="<?php echo $_SESSION['Username']?>" required>
           </div>
 
           <div class="field input">

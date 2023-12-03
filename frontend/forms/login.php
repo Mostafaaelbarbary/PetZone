@@ -7,14 +7,14 @@
   <title>Login</title>
 </head>
 <body>
-      <?php include_once "../backend/signin.php"?>
+      <?php include_once "../../backend/signin.php"?>
       <div class ="container">
         <div class = "box form-box">
           <header>Login</header>
           <form action="" method="post">
            <div class="field input">
-            <label for="first name">First name</label>
-            <input type ="text" name = "firstname" id="first name" required>
+            <label for=" Username">Username</label>
+            <input type ="text" name = "Username" id="Username" required>
           </div>
 
             <div class="field input">

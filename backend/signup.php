@@ -1,6 +1,6 @@
 
 <?php
-include_once "../includes/dbh.inc.php";
+include_once "../../includes/dbh.inc.php";
 ?>
 
 <?php
@@ -9,17 +9,18 @@ session_start();
 if($_SERVER["REQUEST_METHOD"]=="POST"){
     $firstname = htmlspecialchars($_POST['firstname']);
     $lastname = htmlspecialchars($_POST['lastname']);
+    $Username = htmlspecialchars($_POST['Username']);
     $Email = htmlspecialchars($_POST['Email']);
     $password = htmlspecialchars($_POST['password']);
 
 
-    $sql="insert into users(firstname,lastname,Email,password) 
-    values('$firstname','$lastname','$Email','$password')";
+    $sql="insert into users(firstname,lastname,Username,Email,password) 
+    values('$firstname','$lastname','$Username','$Email','$password')";
 
     $result=mysqli_query($conn,$sql);
 
     if($result){
-      header("location:../frontend/index.php");
+      header("location:../pages/index.php");
     }
      else{
       echo "Error: " . mysqli_error($conn);

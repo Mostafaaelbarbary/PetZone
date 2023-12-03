@@ -1,5 +1,5 @@
 <?php
-include_once "../includes/dbh.inc.php";
+include_once "../../includes/dbh.inc.php";
 
 if($_SERVER["REQUEST_METHOD"]=="POST"){
     if (isset($_POST['deleteuser'])) {
@@ -12,7 +12,7 @@ if($_SERVER["REQUEST_METHOD"]=="POST"){
 
         if ($result) {
 
-            header("location:../backend/signout.php");
+            header("location:../../backend/signout.php");
         } else {
             echo "Error: " . mysqli_error($conn);
         }
@@ -26,7 +26,7 @@ if($_SERVER["REQUEST_METHOD"]=="POST"){
         $result = mysqli_query($conn, $sql);
 
         if($result){
-            header("location: ../backend/signout.php");
+            header("location: ../../backend/signout.php");
         }
         else{
             echo "Error: " . mysqli_error($conn);

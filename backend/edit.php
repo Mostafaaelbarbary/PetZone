@@ -1,6 +1,6 @@
 <?php
 session_start();
-include_once "../includes/dbh.inc.php";
+include_once "../../includes/dbh.inc.php";
 
 
 if($_SERVER["REQUEST_METHOD"]=="POST"){
@@ -20,7 +20,7 @@ if($_SERVER["REQUEST_METHOD"]=="POST"){
       $_SESSION['lastname'] = $lastname;
       $_SESSION['Email'] = $Email;
       $_SESSION['password'] = $password;
-      header("location:../frontend/index.php");
+      header("location:../pages/index.php");
     } else {
       echo "Error: " . mysqli_error($conn);
     }
@@ -47,7 +47,7 @@ if($_SERVER["REQUEST_METHOD"]=="POST"){
       $_SESSION['number_of_pets'] = $number_of_pets;
       $_SESSION['date_of_first_visit'] = $date_of_first_visit;
       $_SESSION['Email'] = $Email;
-        header("location:../frontend/index.php");
+        header("location:../pages/index.php");
     }
     else{
         echo "Error: " . mysqli_error($conn);

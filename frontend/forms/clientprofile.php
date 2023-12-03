@@ -8,8 +8,8 @@
   <title>Client Profile</title>
 </head>
 <body>
-  <?php include "../backend/edit.php";
-        include "../backend/delete.php";
+  <?php include "../../backend/edit.php";
+        include "../../backend/delete.php";
   ?>
 
   <div class="container">

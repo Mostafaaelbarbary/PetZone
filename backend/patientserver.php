@@ -1,6 +1,6 @@
 <?php
 session_start();
-include_once "../includes/dbh.inc.php";
+include_once "../../includes/dbh.inc.php";
 
 if($_SERVER["REQUEST_METHOD"]=="POST"){
     $petname = htmlspecialchars($_POST['petname']);
@@ -19,7 +19,7 @@ if($_SERVER["REQUEST_METHOD"]=="POST"){
     $result = mysqli_query($conn, $sql);
 
     if($result){
-        header("location:../frontend/index.php");
+        header("location:../pages/index.php");
     }
     else{
         echo "Error: " . mysqli_error($conn);
