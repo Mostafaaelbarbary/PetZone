@@ -51,14 +51,3 @@
 
 ## 📜 License
 This project is licensed under the **MIT License**. For more details, see the [LICENSE](LICENSE) file.
-
----
-
-### Icons and Emojis Added:
-- 🔒 **User Authentication**: Represents secure login functionality.
-- 📅 **Appointment Booking**: Indicates scheduling features.
-- 🐕 **Pet Profiles**: Represents the management of pet-related data.
-- 🛒 **E-commerce**: Represents the ability to purchase products.
-- 📊 **ERP Capabilities**: Highlights the system’s functionality in managing enterprise resources.
-- 📄 **Reporting and Analytics**: Represents business insights and data analysis.
-
